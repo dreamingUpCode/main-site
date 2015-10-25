@@ -1,0 +1,187 @@
+/*-------------------------*
+* Coded by Mathew Harrison *
+* www.dreamingUpCode.com   *
+
+* deamingUpCode on GtHub   *
+*-------------------------*/
+* {
+	font-family: Lato;
+	font-size: 100%;
+	font-size: 16px;
+}
+/* Font */
+@font-face {
+  font-family: 'Marbre';
+  src:  url('../fonts/Marbre.woff2') format('woff2'),
+        url('../fonts/Marbre.woff') format('woff');
+}
+/* Section One */
+#sectionOne {
+	background: #4890FC;
+	width: 100%;
+	height: 641px;
+	text-align: center;
+}
+/* Navigation */
+.mainNavigation > ul > li {
+	display: inline-block;
+	color: #fff;
+	font-size: 1.8rem;
+	font-weight: 300;
+	padding: 0 25px;
+	margin-top: 10px;
+	list-style: none;
+	text-decoration: none;
+	cursor: pointer;
+}
+/* Intro Content */ 
+.introContent {
+	color: #fff;
+	margin-top: 200px;
+}
+h1#nameHeading {
+	font-family: Marbre;
+	font-size: 5rem;
+	font-weight: 300;
+	margin-bottom: 0;
+}
+#nameBorder {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px solid #252323;
+	width: 375px;
+}
+
+h3#slogan {
+	font-size: 2.5rem;
+	font-weight: 300;
+	margin-top: 10px;
+}
+#sloganBorder {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px solid #252323;
+	width: 550px;
+}
+
+/* About Section */
+#sectionTwo {
+	background: #E5056E;
+	max-width: 100%;
+	height: 641px;
+	text-align: center;
+	overflow: hidden;
+}
+#aboutText {
+	color: #fff;
+	font-weight: 300;
+	margin-top: 100px;
+	border: 1px solid #fff;
+	width: 325px;
+	height: 50px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 3px;
+}
+#aboutParagraph {
+	color: #fff;
+	font-size: 1.6rem;
+	font-weight: 300;
+	padding-top: 10px;
+}
+
+/* Icons */
+
+#program {
+	font-size: 1.7rem;
+	font-weight: 300;
+	color: #fff;
+	margin-top: 3px;
+	padding-right: 5px;
+}
+#frame {
+	font-size: 1.7rem;
+	font-weight: 300;
+	color: #fff;
+	margin-top: 3px;
+	padding-right: 5px;
+}
+#operating {
+	font-size: 1.7rem;
+	font-weight: 300;
+	color: #fff;
+	margin-top: 3px;
+	padding-right: 5px;
+}
+#designs {
+	font-size: 1.7rem;
+	font-weight: 300;
+	color: #fff;
+	margin-top: 3px;
+	padding-right: 5px;
+}
+#tools {
+	font-size: 1.7rem;
+	font-weight: 300;
+	color: #fff;
+	margin-top: 3px;
+	padding-right: 5px;
+}
+.lang, .frameworks, .os, .design, .tools {
+	float: right;
+}
+.langTwo, .frameworksTwo, .toolsTwo {
+	float: left;
+}
+#iconsOne {
+	padding-right: 10px;
+}
+#iconsTwo {
+	padding-left: 10px;
+}
+.knowIcon > h2 {
+	color: #fff;
+	text-align: center;
+	margin: 0 auto;
+	font-weight: 300;
+	font-size: 2.5rem;
+	padding-left: 20%;
+}
+.learnIcon > h2 {
+	color: #fff;
+	text-align: center;
+	margin: 0 auto;
+	font-weight: 300;
+	font-size: 2.5rem;
+	padding-right: 55%;
+}
+/* Work Section */
+#sectionThree {
+	background: #FFFFFF;
+	width: 100%;
+	height: 641px;
+	text-align: center;
+}
+section > img {
+	width: 300px;
+}
+#galleryText {
+	text-align: center;
+	font-weight: 300;
+	font-size: 3.5rem;
+}
+#galleryParagraph {
+	text-align: center;
+	font-weight: 300;
+	color: #0AD0D7;
+}
+
+/* Content Hover Markup */
+#gal1:hover {
+	background: black;
+}
+
+
+
